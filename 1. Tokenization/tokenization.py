@@ -8,3 +8,8 @@ print("tokenize_words ")
 tokenize_sent=sent_tokenize(text)
 for i in tokenize_sent:
     print(i)
+    
+text="Hello i AM Harshal Dharpure I love to play cricket" 
+tokenize_sent=sent_tokenize(text)
+for i in tokenize_sent:
+    print(i)
